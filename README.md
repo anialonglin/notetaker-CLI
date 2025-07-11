@@ -7,16 +7,16 @@ A simple CLI app to create, list, update, and delete notes using PostgreSQL.
 - CLI via argparse
 - PostgreSQL integration using psycopg2
 
-## Usage
-```bash
+## Command
+```
 python notetaker.py create --title "Hello" --content "World"
 python notetaker.py list
 python notetaker.py update --id 1 --title "Updated"
 python notetaker.py delete --id 1
-
-## Setup
+```
+# Setup
 - Create .env file with DB credentials
-- Run the script with Python 3
+- Run the script with Python
 - Requires psycopg2 and python-dotenv
 
 
