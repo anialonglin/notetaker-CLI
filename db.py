@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import psycopg2
 
 # load_dotenv()  # this loads .env into os.environ
-load_dotenv(dotenv_path="/Users/anialin/Desktop/codingExercise/notetaker-CLI/database_credentials.env")
+load_dotenv(dotenv_path="/Users/path/.../database_credentials.env")
 
 # Connect to PostgreSQL
 def get_connection():
